@@ -12,6 +12,11 @@ public class BeginSite {
 		dr.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 		return dr;
 	}
+	
+	
+	public void gitadd() {
+		
+	}
 
 	public void closeDriver () throws InterruptedException{
 		Thread.sleep(3000);
